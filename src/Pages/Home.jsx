@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero/Hero'
 import personalImage from "../assets/image/hero/home2.png"
-import AboutMe from '../components/aboutMe/aboutMe'
+import AboutMe from '../components/AboutMe/AboutMe'
 import { SkillsProgressProvider } from '../Context/SkillsProgressContext'
 import EducationAndExperience from '../components/EducationAndExperience/EducationAndExperience'
 import InfoEducationAndExperience from '../components/InfoEducationAndExperience/InfoEducationAndExperience'
