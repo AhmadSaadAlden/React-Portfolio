@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import iconLink from "../assets/image/projects/icon.png"
+import iconLink from "../assets/image/projects/Icon.png"
 import education from "../assets/image/projects/education.png"
 import blog from "../assets/image/projects/blog.png"
 import screenShot from "../assets/image/projects/full.png"
