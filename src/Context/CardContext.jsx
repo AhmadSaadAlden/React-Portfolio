@@ -2,7 +2,7 @@ import { createContext } from "react";
 import iconLink from "../assets/image/projects/Icon.png"
 import education from "../assets/image/projects/education.png"
 import blog from "../assets/image/projects/blog.png"
-import screenShot from "../assets/image/projects/full.png"
+import screenShot1 from "../assets/image/projects/Full.png"
 import dashboard from "../assets/image/projects/dashboard.png"
 export const CardContext = createContext()
 
@@ -17,7 +17,7 @@ export const CardProvider = ({children}) => {
             icon: iconLink,
             iconAlt: "Link Icon",
             iconLink : "https://ahmadsaadalden.github.io/Midterm-Project/",
-            screenShot: screenShot,
+            screenShot: screenShot1,
             screenShotAlt: "screenShot",
             demo: iconLink,
             demoAlt: "demo",
@@ -40,7 +40,7 @@ export const CardProvider = ({children}) => {
             icon: iconLink,
             iconAlt: "Link Icon",
             iconLink: "https://ahmadsaadalden.github.io/React-Blogs/",
-            screenShot: screenShot,
+            screenShot: screenShot1,
             screenShotAlt: "screenShot",
             demo: iconLink,
             demoAlt: "demo",
@@ -63,7 +63,7 @@ export const CardProvider = ({children}) => {
             icon: iconLink,
             iconAlt: "Link Icon",
             iconLink: "https://ahmadsaadalden.github.io/React-Dashboard/",
-            screenShot: screenShot,
+            screenShot: screenShot1,
             screenShotAlt: "screenShot",
             demo: iconLink,
             demoAlt: "demo",
