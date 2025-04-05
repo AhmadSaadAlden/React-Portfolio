@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MainSectionTitle from '../../shared/MainSectionTitle/MainSectionTitle';
-import SectionTitle from '../../shared/sectionTitle/sectionTitle';
+import SectionTitle from '../../shared/SectionTitle/SectionTitle';
 import bg1 from "../../assets/image/education/bg1.svg"
 import bg2 from "../../assets/image/education/bg2.svg"
 import ButtonBackToTop from '../ButtonBackToTop/ButtonBackToTop';
