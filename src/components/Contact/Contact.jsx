@@ -3,7 +3,7 @@ import MainSectionTitle from '../../shared/MainSectionTitle/MainSectionTitle'
 import SectionTitle from '../../shared/SectionTitle/SectionTitle'
 import LastWordTitle from '../LastWordTitle/LastWordTitle'
 import { useTheme } from '../../Context/ThemeContext'
-import InfoContact from './infoContact/infoContact'
+import InfoContact from './InfoContact/InfoContact'
 import RegistrationForm from './RegistrationForm/RegistrationForm'
 
 const Contact = ({data}) => {
