@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../../Context/ThemeContext'
-//import lines from "../../assets/image/callToAction/lines.svg"
+import lines from "../../assets/image/callToAction/LInes.svg"
 import Buttons from '../../shared/Buttons/Buttons'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
@@ -16,8 +16,8 @@ const CallToAction = ({data}) => {
 
         <div className='w-full max-w-[73.0625rem] h-[348px] bg-[var(--background-section)] rounded-4xl absolute top-1/2 left-1/2 transform 
             -translate-x-1/2 -translate-y-1/2 rotate-1 z-10'>
-{/*             <img src={lines} alt="lines" className="absolute w-full h-full" />
- */}            
+            <img src={lines} alt="lines" className="absolute w-full h-full" />
+            
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-1 w-full px-4 md:px-[136px] z-20'>
                 {data.map((item, index) => (
                     <div key={index} className='flex flex-col md:flex-row justify-between items-center gap-6'>
