@@ -4,6 +4,7 @@ import education from "../assets/image/projects/education.png"
 import blog from "../assets/image/projects/blog.png"
 import screenShot1 from "../assets/image/projects/Full.png"
 import dashboard from "../assets/image/projects/dashboard.png"
+import portfolio from "../assets/image/projects/portfolio.png"
 export const CardContext = createContext()
 
 export const CardProvider = ({children}) => {
@@ -44,8 +45,8 @@ export const CardProvider = ({children}) => {
             screenShotAlt: "screenShot",
             demo: iconLink,
             demoAlt: "demo",
-            date: "12-5-2024",
-            description: "A blog is a place where you can share your thoughts and experiences with the world, a way to make your voice heard and let the world listen.",
+            date: "04-05-2025",
+            description: "Personal Website ",
             titleBasicLanguage: "Basic Languages :",
             titleFramework: "Framework : ",
             contentFramwork: "",
@@ -76,6 +77,29 @@ export const CardProvider = ({children}) => {
             contnetLibrary: "React.js",
             btn: "Github Repo",
             repo: "https://github.com/AhmadSaadAlden/React-Dashboard.git/"
+        },
+        {
+            id: "4",
+            img: portfolio,
+            alt: "portfolio",
+            title: "Portfolio",
+            basicLanguage: "React - ReactRouter - ReactHooks - Tailwind - Figma - Responsive Design - vercel",
+            icon: iconLink,
+            iconAlt: "Link Icon",
+            iconLink: "https://ahmadsaadalden-portfolio-react.vercel.app/",
+            screenShot: screenShot1,
+            screenShotAlt: "screenShot",
+            demo: iconLink,
+            demoAlt: "demo",
+            date: "12-5-2024",
+            description: "product managment example `Add Product Edit Delet ` and registration",
+            titleBasicLanguage: "Basic Languages :",
+            titleFramework: "Framework : ",
+            contentFramwork: "Tailwind",
+            titleLibrary: "Libraries :",
+            contnetLibrary: "React.js",
+            btn: "Github Repo",
+            repo: "https://github.com/AhmadSaadAlden/React-Portfolio.git/"
         },
     ]
     return (
