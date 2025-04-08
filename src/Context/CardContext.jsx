@@ -92,7 +92,7 @@ export const CardProvider = ({children}) => {
             demo: iconLink,
             demoAlt: "demo",
             date: "12-5-2024",
-            description: "product managment example `Add Product Edit Delet ` and registration",
+            description: "Here I showcase my best works, ideas, and creative journey in a way that represents my passion and professionalism.",
             titleBasicLanguage: "Basic Languages :",
             titleFramework: "Framework : ",
             contentFramwork: "Tailwind",
