@@ -5,6 +5,8 @@ import blog from "../assets/image/projects/blog.png"
 import screenShot1 from "../assets/image/projects/Full.png"
 import dashboard from "../assets/image/projects/dashboard.png"
 import portfolio from "../assets/image/projects/portfolio.png"
+import todos from "../assets/image/projects/todos.png"
+
 export const CardContext = createContext()
 
 export const CardProvider = ({children}) => {
@@ -100,6 +102,29 @@ export const CardProvider = ({children}) => {
             contnetLibrary: "React.js",
             btn: "Github Repo",
             repo: "https://github.com/AhmadSaadAlden/React-Portfolio.git/"
+        },
+        {
+            id: "5",
+            img: todos,
+            alt: "todos",
+            title: "Todos",
+            basicLanguage: "React - ReactHooks - TypeScript -  Tailwind  - Responsive Design - vercel",
+            icon: iconLink,
+            iconAlt: "Link Icon",
+            iconLink: "https://todos-xi-bice.vercel.app/",
+            screenShot: screenShot1,
+            screenShotAlt: "screenShot",
+            demo: iconLink,
+            demoAlt: "demo",
+            date: "14-4-2025",
+            description: "It’s a list of tasks you need to complete or things that you want to do.",
+            titleBasicLanguage: "Basic Languages :",
+            titleFramework: "Framework : ",
+            contentFramwork: "Tailwind",
+            titleLibrary: "Libraries :",
+            contnetLibrary: "React.js",
+            btn: "Github Repo",
+            repo: "https://github.com/AhmadSaadAlden/Todos.git/"
         },
     ]
     return (
