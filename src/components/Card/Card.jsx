@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { CardContext } from '../../Context/CardContext';
 import { useTheme } from '../../Context/ThemeContext';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,7 @@ import html2canvas from 'html2canvas';
 const Card = () => {
     const { isDarkMode } = useTheme();
     const context = useContext(CardContext);
+    const [activeCard, setActiveCard] = useState(null);
     if (!context?.CardData) return <div>No Data available</div>;
 
     const handleScreenShot = (e, imageId) => {
@@ -39,6 +40,8 @@ const Card = () => {
                 <div
                     key={item.id}
                     className="w-full md:max-w-[370px] md:max-h-[320px] hover:scale-105 duration-300 cursor-pointer mb-10 group"
+                    onTouchStart={() => setActiveCard(index)}
+                    onTouchEnd={() => setActiveCard(null)}
                 >
                     <div className='relative overflow-hidden'>
                         <img
@@ -47,9 +50,9 @@ const Card = () => {
                             className="w-full rounded-xl transition-transform duration-300"
                             id={`screenshot-target-${index}`}
                         />
-                        <div className="absolute bottom-0 left-0 right-0 h-0 
+                        <div className={`absolute bottom-0 left-0 right-0 h-0 
                         bg-black/70 opacity-0 group-hover:h-full group-hover:opacity-100 transition-all ease-in-out duration-500 rounded-xl
-                        flex justify-center items-center gap-8">
+                        flex justify-center items-center gap-8 ${activeCard === index ? "h-full opacity-100" : ""}`}>
                             <button 
                                 className='cursor-pointer hover:scale-110 transition-transform'
                                 onClick={(e) => handleScreenShot(e, `screenshot-target-${index}`)}
