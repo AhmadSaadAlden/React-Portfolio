@@ -6,7 +6,7 @@ import screenShot1 from "../assets/image/projects/Full.png"
 import dashboard from "../assets/image/projects/dashboard.png"
 import portfolio from "../assets/image/projects/portfolio.png"
 import todos from "../assets/image/projects/todos.png"
-
+import eshop from "../assets/image/projects/eshop.png"
 export const CardContext = createContext()
 
 export const CardProvider = ({children}) => {
@@ -125,6 +125,29 @@ export const CardProvider = ({children}) => {
             contnetLibrary: "React.js",
             btn: "Github Repo",
             repo: "https://github.com/AhmadSaadAlden/Todos.git/"
+        },
+        {
+            id: "6",
+            img: eshop,
+            alt: "eshop",
+            title: "Ecommerce-Eshop",
+            basicLanguage: "React - ReactHooks -  Tailwind  - Responsive Design - vercel",
+            icon: iconLink,
+            iconAlt: "Link Icon",
+            iconLink: "https://react-ecommerce-esop.vercel.app/",
+            screenShot: screenShot1,
+            screenShotAlt: "screenShot",
+            demo: iconLink,
+            demoAlt: "demo",
+            date: "03-05-2025",
+            description: "A commercial site for selling and showcasing digital technical equipment.",
+            titleBasicLanguage: "Basic Languages :",
+            titleFramework: "Framework : ",
+            contentFramwork: "Tailwind",
+            titleLibrary: "Libraries :",
+            contnetLibrary: "React.js",
+            btn: "Github Repo",
+            repo: "https://github.com/AhmadSaadAlden/React-Ecommerce-Esop.git/"
         },
     ]
     return (
