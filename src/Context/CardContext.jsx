@@ -65,7 +65,7 @@ export const CardProvider = ({children}) => {
             basicLanguage: "React - ReactRouter - ReactHooks",
             icon: iconLink,
             iconAlt: "Link Icon",
-            iconLink: "https://ahmadsaadalden.github.io/React-Dashboard/",
+            iconLink: "https://react-dashboard-t36x.vercel.app/",
             screenShot: screenShot1,
             screenShotAlt: "screenShot",
             demo: iconLink,
@@ -78,7 +78,7 @@ export const CardProvider = ({children}) => {
             titleLibrary: "Libraries :",
             contnetLibrary: "React.js",
             btn: "Github Repo",
-            repo: "https://github.com/AhmadSaadAlden/React-Dashboard.git/"
+            repo: "https://github.com/AhmadSaadAlden/React-Dashboard/"
         },
         {
             id: "4",
