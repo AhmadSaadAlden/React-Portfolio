@@ -42,7 +42,7 @@ export const CardProvider = ({children}) => {
             basicLanguage: "React - ReactRouter - ReactHooks",
             icon: iconLink,
             iconAlt: "Link Icon",
-            iconLink: "https://ahmadsaadalden.github.io/React-Blogs/",
+            iconLink: "https://react-blog-xi-sepia.vercel.app/",
             screenShot: screenShot1,
             screenShotAlt: "screenShot",
             demo: iconLink,
@@ -55,7 +55,7 @@ export const CardProvider = ({children}) => {
             titleLibrary: "Libraries :",
             contnetLibrary: "React.js",
             btn: "Github Repo",
-            repo: "https://github.com/AhmadSaadAlden/React-Blogs.git"
+            repo: "https://github.com/AhmadSaadAlden/React-Blog"
         },
         {
             id: "3",
