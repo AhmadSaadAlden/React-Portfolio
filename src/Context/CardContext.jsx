@@ -7,6 +7,8 @@ import dashboard from "../assets/image/projects/dashboard.png"
 import portfolio from "../assets/image/projects/portfolio.png"
 import todos from "../assets/image/projects/todos.png"
 import eshop from "../assets/image/projects/eshop.png"
+import new_dashboard from "../assets/image/projects/new-dashboard.png"
+
 export const CardContext = createContext()
 
 export const CardProvider = ({children}) => {
@@ -148,6 +150,29 @@ export const CardProvider = ({children}) => {
             contnetLibrary: "React.js",
             btn: "Github Repo",
             repo: "https://github.com/AhmadSaadAlden/React-Ecommerce-Esop.git/"
+        },
+        {
+            id: "7",
+            img: new_dashboard,
+            alt: "Dashboard",
+            title: "Dashboard",
+            basicLanguage: "React - ReactRouter - ReactHooks - Tailwind - TypeScript - Vercel",
+            icon: iconLink,
+            iconAlt: "Link Icon",
+            iconLink: "https://dashboard-flame-sigma-81.vercel.app/",
+            screenShot: screenShot1,
+            screenShotAlt: "screenShot",
+            demo: iconLink,
+            demoAlt: "demo",
+            date: "06-21-2025",
+            description: "product managment example `Add Product Edit Delete ` and registration",
+            titleBasicLanguage: "Basic Languages :",
+            titleFramework: "Framework : ",
+            contentFramwork: "Tailwind",
+            titleLibrary: "Libraries :",
+            contnetLibrary: "React.js",
+            btn: "Github Repo",
+            repo: "https://github.com/AhmadSaadAlden/Dashboard"
         },
     ]
     return (
