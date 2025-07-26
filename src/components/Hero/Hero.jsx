@@ -21,7 +21,7 @@ const Hero = ({ data }) => {
                                 </span> {item.subtitle}
                             </h1>
                             <p className='w-full fonts-inter font-normal text-base text-[var(--text-item-color)] pt-10'>{item.description}</p>
-                            <Link to={'https://drive.google.com/file/d/1fE5DWvIQlRJm88279hd82-oWWmVQ0wAE/view?usp=sharing'}>
+                            <Link to={'https://drive.google.com/file/d/1Ir9FTc7jhTsV1SiT-rzoBR5w6n6bmWy4/view?usp=sharing'}>
                                 <Buttons
                                     text={"Download CV"} bgColor={"bg-[var(--primary-color)]"} textColor={"text-[var(--text-btn)]"} mt={"mt-[30px]"}
                                 />
