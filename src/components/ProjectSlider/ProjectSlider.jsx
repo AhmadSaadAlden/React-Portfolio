@@ -19,6 +19,7 @@ const ProjectSlider = () => {
         setCurrentIndex((prev) => (prev === 0 ? CardData.length - 1 : prev - 1));
     }; 
 
+
     return (
         <div className="mt-20">
             <div className="relative w-full flex flex-col md:flex-row gap-2 md:gap-4 justify-between min-h-[146px] px-4 py-6 md:px-6 md:py-8">

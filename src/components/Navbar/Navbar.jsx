@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="bg-[var(--background-color)]">
       <NavbarList />
     </div>
-  );
-};
+  )
+}
 
 export default Navbar;
