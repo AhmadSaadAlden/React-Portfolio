@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-    <div className='fixed top-0 left-0 z-50 flex items-center justify-between transition-opacity duration-500 py-[var(--py-global)] px-[var(--px-global)] w-full h-9' 
+    <div className='fixed top-0 left-0 z-50 flex items-center justify-between transition-opacity duration-500 py-[var(--py-global)] px-[var(--px-global)] w-full h-9 bg-black/30' 
         data-theme={isDarkMode ? 'dark' : 'light'}
     >
       {/* logo */}
