@@ -22,8 +22,8 @@ const Hero = ({ data }) => {
                             </h1>
                             <p className='w-full fonts-inter font-normal text-base text-[var(--text-item-color)] pt-10'>{item.description}</p>
                             {/*'https://drive.google.com/uc?export=download&id=1w8gnSist1RwcN4abJpMvrN8Q7R2C7GYk'*/}
-                            {/*'https://drive.google.com/uc?export=download&id=1w8gnSist1RwcN4abJpMvrN8Q7R2C7GYk'*/}
-                            <Link to={'https://drive.google.com/uc?export=download&id=1w8gnSist1RwcN4abJpMvrN8Q7R2C7GYk'}>
+                            {/*'https://drive.google.com/file/d/1AinAiisk3Pbl_rOqePd46NJpsiDaWOGl/view?usp=sharing'*/}
+                            <Link to={'https://drive.google.com/uc?export=download&id=1AinAiisk3Pbl_rOqePd46NJpsiDaWOGl'}>
                                 <Buttons
                                     text={"Download CV"} bgColor={"bg-[var(--primary-color)]"} textColor={"text-[var(--text-btn)]"} mt={"mt-[30px]"}
                                 />
