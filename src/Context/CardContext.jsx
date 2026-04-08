@@ -95,7 +95,7 @@ export const CardProvider = ({children}) => {
             screenShotAlt: "screenShot",
             demo: iconLink,
             demoAlt: "demo",
-            date: "12-5-2024",
+            date: "04-08-2026",
             description: "E-commerce product managment",
             titleBasicLanguage: "Basic Languages :",
             titleFramework: "Framework : ",
