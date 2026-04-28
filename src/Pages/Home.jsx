@@ -73,7 +73,7 @@ const Home = () => {
         img3: location,
         img3Alt: "location",
         callTitle: "Call me",
-        callDescripton: "+963 992719635 , +963 938069218",
+        callDescripton: "+963 992719635",
         emailTitle: "Email me",
         emailDescription: "ahmadsaad01045@gmail.com",
         locationTitle: "Address",
